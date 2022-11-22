@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "faumod",
+  "version": "${version}",
+  "name": "FauMod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/faumod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.erdragh.faumod.client.FaumodClient"
+    ],
+    "main": [
+      "com.github.erdragh.faumod.Faumod"
+    ]
+  },
+  "mixins": [
+    "faumod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
